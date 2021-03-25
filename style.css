@@ -1,0 +1,129 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #C0CADA;
+  color: white;
+}
+
+h1 {
+  //font-style: italic;
+  color: #386DC5;
+  font-family: copperplate, arial, sans-serif;
+  font-size: 55px;
+  text-align: center;
+  text-shadow: 4px 4px yellow;
+}
+
+p {
+  color: #DCEE65;
+  font-size: 25px;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #A4F1E1;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+}
+  
+#gamebuttonArea{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+#buttons{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  z-index: 10;
+}
+#buttons button{
+  width: 185px;
+  height: 185px;
+  margin: 5px;
+}
+#images {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+}
+#images img{
+  width: 180px;
+  height: 180px;
+  margin: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1{
+  background: lightgreen;
+}
+#button1:active, #button1.lit{
+  background: green;
+  opacity: 0;
+}
+
+
+#button2{
+  background: lightblue;
+}
+#button2:active, #button2.lit{
+  background: blue;
+  opacity: 0;
+}
+
+
+#button3{
+  background: pink;
+}
+#button3:active, #button3.lit{
+  background: red;
+  opacity: 0;
+}
+
+
+#button4{
+  background: lightyellow;
+}
+#button4:active, #button4.lit{
+  background: yellow;
+  opacity: 0;
+}
+
+
+#button5{
+  background: #FACA71;
+}
+#button5:active, #button5.lit{
+  background: #B18025;
+  opacity: 0;
+}
+
+
+#button6{
+  background: #C58AEE;
+}
+#button6:active, #button6.lit{
+  background: #7825B1;
+  opacity: 0;
+}
